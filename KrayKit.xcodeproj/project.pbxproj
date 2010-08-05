@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5A908FFD1209220500969CE2 /* KrayKit.framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5A9090031209221A00969CE2 /* Build configuration list for PBXAggregateTarget "KrayKit.framework" */;
+			buildPhases = (
+				5A908FFC1209220500969CE2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = KrayKit.framework;
+			productName = KrayKit.framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5A9E4B3C1209700200C3CC64 /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B361209700200C3CC64 /* NSString+Digest.m */; };
+		5A9E4B3D1209700200C3CC64 /* NSString+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B371209700200C3CC64 /* NSString+NumberFormat.m */; };
+		5A9E4B3E1209700200C3CC64 /* UIColor+HexRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B381209700200C3CC64 /* UIColor+HexRGB.m */; };
+		5A9E4B3F1209700200C3CC64 /* KKURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B3A1209700200C3CC64 /* KKURLRequestOperation.m */; };
+		5A9E4B401209700200C3CC64 /* KKRequestCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B3B1209700200C3CC64 /* KKRequestCache.m */; };
+		5A9E4B4B1209700C00C3CC64 /* NSString+Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B431209700C00C3CC64 /* NSString+Digest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A9E4B4C1209700C00C3CC64 /* NSString+NumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B441209700C00C3CC64 /* NSString+NumberFormat.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A9E4B4D1209700C00C3CC64 /* UIColor+HexRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B451209700C00C3CC64 /* UIColor+HexRGB.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A9E4B4F1209700C00C3CC64 /* KrayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B471209700C00C3CC64 /* KrayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9E4B501209700C00C3CC64 /* KKURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B491209700C00C3CC64 /* KKURLRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A9E4B511209700C00C3CC64 /* KKRequestCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B4A1209700C00C3CC64 /* KKRequestCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A9E4B8C12097A2F00C3CC64 /* UIImageView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4B8B12097A2F00C3CC64 /* UIImageView+Effect.h */; };
+		5A9E4D10120995B900C3CC64 /* KKMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E4D0F120995B900C3CC64 /* KKMacro.h */; };
+		5AD324BE120A852600B942A5 /* KKRemoteImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD324BD120A852600B942A5 /* KKRemoteImageView.h */; };
+		5AD324C3120A854800B942A5 /* KKRemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD324C1120A854800B942A5 /* KKRemoteImageView.m */; };
+		5AD32696120AA6EB00B942A5 /* UIImageView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E4B8A120979DB00C3CC64 /* UIImageView+Effect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A9E4B361209700200C3CC64 /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
+		5A9E4B371209700200C3CC64 /* NSString+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFormat.m"; sourceTree = "<group>"; };
+		5A9E4B381209700200C3CC64 /* UIColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRGB.m"; sourceTree = "<group>"; };
+		5A9E4B3A1209700200C3CC64 /* KKURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKURLRequestOperation.m; sourceTree = "<group>"; };
+		5A9E4B3B1209700200C3CC64 /* KKRequestCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequestCache.m; sourceTree = "<group>"; };
+		5A9E4B431209700C00C3CC64 /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
+		5A9E4B441209700C00C3CC64 /* NSString+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFormat.h"; sourceTree = "<group>"; };
+		5A9E4B451209700C00C3CC64 /* UIColor+HexRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRGB.h"; sourceTree = "<group>"; };
+		5A9E4B471209700C00C3CC64 /* KrayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrayKit.h; sourceTree = "<group>"; };
+		5A9E4B491209700C00C3CC64 /* KKURLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKURLRequestOperation.h; sourceTree = "<group>"; };
+		5A9E4B4A1209700C00C3CC64 /* KKRequestCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequestCache.h; sourceTree = "<group>"; };
+		5A9E4B8A120979DB00C3CC64 /* UIImageView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Effect.m"; sourceTree = "<group>"; };
+		5A9E4B8B12097A2F00C3CC64 /* UIImageView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Effect.h"; sourceTree = "<group>"; };
+		5A9E4B8E12097B5300C3CC64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A9E4D0F120995B900C3CC64 /* KKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMacro.h; sourceTree = "<group>"; };
+		5AD324BD120A852600B942A5 /* KKRemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRemoteImageView.h; sourceTree = "<group>"; };
+		5AD324C1120A854800B942A5 /* KKRemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRemoteImageView.m; sourceTree = "<group>"; };
+		5AE3778E120846E700FA8D88 /* libKrayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKrayKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE377B9120847FB00FA8D88 /* Framework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Framework.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE3778C120846E700FA8D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5AE377931208476F00FA8D88 /* Include */,
+				5AE377A31208477700FA8D88 /* Sources */,
+				5AE377B8120847FB00FA8D88 /* Resources */,
+				5A9E4B8D12097B3100C3CC64 /* Frameworks */,
+				5AE377861208467000FA8D88 /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		5A9E4B341209700200C3CC64 /* KrayKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B351209700200C3CC64 /* Extension */,
+				5A9E4B391209700200C3CC64 /* Network */,
+				5AD324BF120A853600B942A5 /* Control */,
+			);
+			path = KrayKit;
+			sourceTree = "<group>";
+		};
+		5A9E4B351209700200C3CC64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B361209700200C3CC64 /* NSString+Digest.m */,
+				5A9E4B371209700200C3CC64 /* NSString+NumberFormat.m */,
+				5A9E4B381209700200C3CC64 /* UIColor+HexRGB.m */,
+				5A9E4B8A120979DB00C3CC64 /* UIImageView+Effect.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5A9E4B391209700200C3CC64 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B3A1209700200C3CC64 /* KKURLRequestOperation.m */,
+				5A9E4B3B1209700200C3CC64 /* KKRequestCache.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5A9E4B411209700C00C3CC64 /* KrayKit */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B471209700C00C3CC64 /* KrayKit.h */,
+				5A9E4D0F120995B900C3CC64 /* KKMacro.h */,
+				5A9E4B421209700C00C3CC64 /* Extension */,
+				5A9E4B481209700C00C3CC64 /* Network */,
+				5AD324BC120A851500B942A5 /* Control */,
+			);
+			path = KrayKit;
+			sourceTree = "<group>";
+		};
+		5A9E4B421209700C00C3CC64 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B431209700C00C3CC64 /* NSString+Digest.h */,
+				5A9E4B441209700C00C3CC64 /* NSString+NumberFormat.h */,
+				5A9E4B451209700C00C3CC64 /* UIColor+HexRGB.h */,
+				5A9E4B8B12097A2F00C3CC64 /* UIImageView+Effect.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5A9E4B481209700C00C3CC64 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B491209700C00C3CC64 /* KKURLRequestOperation.h */,
+				5A9E4B4A1209700C00C3CC64 /* KKRequestCache.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5A9E4B8D12097B3100C3CC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B8E12097B5300C3CC64 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD324BC120A851500B942A5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				5AD324BD120A852600B942A5 /* KKRemoteImageView.h */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		5AD324BF120A853600B942A5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				5AD324C1120A854800B942A5 /* KKRemoteImageView.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		5AE377861208467000FA8D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3778E120846E700FA8D88 /* libKrayKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE377931208476F00FA8D88 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B411209700C00C3CC64 /* KrayKit */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		5AE377A31208477700FA8D88 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E4B341209700200C3CC64 /* KrayKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5AE377B8120847FB00FA8D88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE377B9120847FB00FA8D88 /* Framework.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AE3778A120846E700FA8D88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E4B4B1209700C00C3CC64 /* NSString+Digest.h in Headers */,
+				5A9E4B4C1209700C00C3CC64 /* NSString+NumberFormat.h in Headers */,
+				5A9E4B4D1209700C00C3CC64 /* UIColor+HexRGB.h in Headers */,
+				5A9E4B4F1209700C00C3CC64 /* KrayKit.h in Headers */,
+				5A9E4B501209700C00C3CC64 /* KKURLRequestOperation.h in Headers */,
+				5A9E4B511209700C00C3CC64 /* KKRequestCache.h in Headers */,
+				5A9E4B8C12097A2F00C3CC64 /* UIImageView+Effect.h in Headers */,
+				5A9E4D10120995B900C3CC64 /* KKMacro.h in Headers */,
+				5AD324BE120A852600B942A5 /* KKRemoteImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AE3778D120846E700FA8D88 /* KrayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE37792120846F100FA8D88 /* Build configuration list for PBXNativeTarget "KrayKit" */;
+			buildPhases = (
+				5AE3778A120846E700FA8D88 /* Headers */,
+				5AE3778B120846E700FA8D88 /* Sources */,
+				5AE3778C120846E700FA8D88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrayKit;
+			productName = KrayKit;
+			productReference = 5AE3778E120846E700FA8D88 /* libKrayKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KrayKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 5AE377861208467000FA8D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE3778D120846E700FA8D88 /* KrayKit */,
+				5A908FFD1209220500969CE2 /* KrayKit.framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A908FFC1209220500969CE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=/Developer/usr/bin:\"$PATH\"\n\n# Define these to suit your nefarious purposes\nFRAMEWORK_NAME=KrayKit\nFRAMEWORK_VERSION=A\nFRAMEWORK_CURRENT_VERSION=1\nFRAMEWORK_COMPATIBILITY_VERSION=1\n\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} clean\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphoneos4.0\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphonesimulator4.0\n\n# Where we'll put the build framework.\n# The script presumes we're in the project root\n# directory. Xcode builds in \"build\" by default\nFRAMEWORK_BUILD_PATH=\"build/Framework\"\n\n# Clean any existing framework that might be there\n# already\necho \"Framework: Cleaning framework...\"\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && \\\n  rm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\n# This is the full name of the framework we'll\n# build\nFRAMEWORK_DIR=${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\n\n# Build the canonical Framework bundle directory\n# structure\necho \"Framework: Setting up directories...\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\n\necho \"Framework: Creating symlinks...\"\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# Check that this is what your static libraries\n# are called\nFRAMEWORK_INPUT_ARM_FILES=\"build/${BUILD_STYLE}-iphoneos/lib${FRAMEWORK_NAME}.a\"\nFRAMEWORK_INPUT_I386_FILES=\"build/${BUILD_STYLE}-iphonesimulator/lib${FRAMEWORK_NAME}.a\"\n\n# The trick for creating a fully usable library is\n# to use lipo to glue the different library\n# versions together into one file. When an\n# application is linked to this library, the\n# linker will extract the appropriate platform\n# version and use that.\n# The library file is given the same name as the\n# framework with no .a extension.\necho \"Framework: Creating library...\"\nlipo \\\n  -create \\\n  \"${FRAMEWORK_INPUT_ARM_FILES}\" \\\n  -arch i386 \"${FRAMEWORK_INPUT_I386_FILES}\" \\\n  -o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n# Now copy the final assets over: your library\n# header files and the plist file\necho \"Framework: Copying assets into current version...\"\ncp -r Include/${FRAMEWORK_NAME}/* ${FRAMEWORK_DIR}/Headers/\ncp Resources/Framework.plist ${FRAMEWORK_DIR}/Resources/Info.plist\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE3778B120846E700FA8D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9E4B3C1209700200C3CC64 /* NSString+Digest.m in Sources */,
+				5A9E4B3D1209700200C3CC64 /* NSString+NumberFormat.m in Sources */,
+				5A9E4B3E1209700200C3CC64 /* UIColor+HexRGB.m in Sources */,
+				5AD32696120AA6EB00B942A5 /* UIImageView+Effect.m in Sources */,
+				5A9E4B3F1209700200C3CC64 /* KKURLRequestOperation.m in Sources */,
+				5A9E4B401209700200C3CC64 /* KKRequestCache.m in Sources */,
+				5AD324C3120A854800B942A5 /* KKRemoteImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A908FFE1209220600969CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = KrayKit.framework;
+			};
+			name = Debug;
+		};
+		5A908FFF1209220600969CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = KrayKit.framework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5AE3778F120846E800FA8D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = KrayKit;
+			};
+			name = Debug;
+		};
+		5AE37790120846E800FA8D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = KrayKit;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Include;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Include;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9090031209221A00969CE2 /* Build configuration list for PBXAggregateTarget "KrayKit.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A908FFE1209220600969CE2 /* Debug */,
+				5A908FFF1209220600969CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE37792120846F100FA8D88 /* Build configuration list for PBXNativeTarget "KrayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3778F120846E800FA8D88 /* Debug */,
+				5AE37790120846E800FA8D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KrayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
