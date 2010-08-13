@@ -22,7 +22,7 @@
 //
 #define SINGLETON \
 \
-static id *_instance = nil;\
+static id _instance = nil;\
 \
 + (id)instance {\
   @synchronized(self) {\
