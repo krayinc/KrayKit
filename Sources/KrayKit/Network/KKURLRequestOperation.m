@@ -46,7 +46,7 @@
     [self didChangeValueForKey:@"isFinished"];
     return;
   }
-  
+
   [self willChangeValueForKey:@"isExecuting"];
   [NSThread detachNewThreadSelector:@selector(main) toTarget:self withObject:nil];
   executing = YES;
@@ -55,26 +55,29 @@
 
 - (void) main {
   NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-  
   NSData *data = nil;
   for (int i=1; i <= TRY_COUNT; i++) {
+    if ([self isCancelled]) { break; }
     OBJDUMP([NSString stringWithFormat:@"Queue try: %d", i]);
-    if ((data = [self sendRequest]) != nil || i == TRY_COUNT)   break;
+    if ((data = [[self sendRequest] retain]) != nil || i == TRY_COUNT) { break; }
     [NSThread sleepUntilDate:[[NSDate date] addTimeInterval:interval]];
   }
-  if (data != nil) { [delegate didFinishRequest:request receivedData:data customData:customData]; }
-  
+  if (![self isCancelled]) {
+    if (data != nil) { [delegate didFinishRequest:request receivedData:data customData:customData]; }
+  }
+  if (data != nil) { [data release]; }
+
   [self completeOperation];
-  [pool release];
+  [pool drain];
 }
 
 - (void)completeOperation {
   [self willChangeValueForKey:@"isFinished"];
   [self willChangeValueForKey:@"isExecuting"];
-  
+
   executing = NO;
   finished = YES;
-  
+
   [self didChangeValueForKey:@"isExecuting"];
   [self didChangeValueForKey:@"isFinished"];
 }
@@ -88,7 +91,7 @@
   NSError *error;
   NSURLResponse *response;
   NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-  
+
   if (data == nil) {
     OBJDUMP([NSString stringWithFormat:@"ERROR Cannot receive data: %@ %@",
              [error localizedDescription], [[error userInfo] objectForKey:NSErrorFailingURLStringKey]]);
