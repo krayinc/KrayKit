@@ -51,8 +51,6 @@
 		5A81664A12153B1500032A61 /* KrayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165411215324100032A61 /* KrayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */; };
 		5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8D980122FAB0E003FA142 /* UIView+Effect.m */; };
-		5AF8DB36122FEF33003FA142 /* KKProgressAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */; };
-		5AF8DB38122FEF66003FA142 /* KKProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */; };
 		AA747D9F0F9514B9006C5449 /* KrayKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* KrayKit_Prefix.pch */; };
 /* End PBXBuildFile section */
 
@@ -88,8 +86,6 @@
 		5A816568121532AB00032A61 /* KKURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKURLRequestOperation.m; sourceTree = "<group>"; };
 		5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
 		5AF8D980122FAB0E003FA142 /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
-		5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressAlertView.h; sourceTree = "<group>"; };
-		5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressAlertView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* KrayKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrayKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libKrayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKrayKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -182,7 +178,6 @@
 			children = (
 				5A23DE2A121E82C800D41CF3 /* KKAuthAlertView.h */,
 				5A8165451215328400032A61 /* KKRemoteImageView.h */,
-				5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */,
 				5A68413D12421FBD00352497 /* KKProgressIndicatorView.h */,
 			);
 			path = Control;
@@ -227,7 +222,6 @@
 			isa = PBXGroup;
 			children = (
 				5A23DE36121E890300D41CF3 /* KKAuthAlertView.m */,
-				5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */,
 				5A81655E121532AB00032A61 /* KKRemoteImageView.m */,
 				5A68414D12421FEA00352497 /* KKProgressIndicatorView.m */,
 			);
@@ -278,7 +272,6 @@
 				5A23DE2C121E82C800D41CF3 /* KKAuthAlertView.h in Headers */,
 				5A5EF7DC122D105E005E414C /* UIView+Overlay.h in Headers */,
 				5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */,
-				5AF8DB36122FEF33003FA142 /* KKProgressAlertView.h in Headers */,
 				5A4F6938123F6D5A007E702E /* NSArray+Access.h in Headers */,
 				5A684048124209D100352497 /* UIView+Align.h in Headers */,
 				5A68413E12421FBD00352497 /* KKProgressIndicatorView.h in Headers */,
@@ -363,7 +356,6 @@
 				5A23DE37121E890300D41CF3 /* KKAuthAlertView.m in Sources */,
 				5A5EF7DF122D10EB005E414C /* UIView+Overlay.m in Sources */,
 				5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */,
-				5AF8DB38122FEF66003FA142 /* KKProgressAlertView.m in Sources */,
 				5A4F693C123F6DBA007E702E /* NSArray+Access.m in Sources */,
 				5A68404F12420A5F00352497 /* UIView+Align.m in Sources */,
 				5A68414E12421FEA00352497 /* KKProgressIndicatorView.m in Sources */,
