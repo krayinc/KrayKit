@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/CALayer.h>
 #import <KrayKit/Network/KKURLRequestOperation.h>
-#import <KrayKit/Extension/UIImageView+Effect.h>
 
 
 @protocol KKRemoteImageViewDelegate

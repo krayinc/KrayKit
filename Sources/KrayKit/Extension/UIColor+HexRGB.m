@@ -6,11 +6,10 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
 #import <KrayKit/Extension/UIColor+HexRGB.h>
 
 
-@implementation UIColor (HexRGB)
+@implementation UIColor (KrayKitHexRGBAddition)
 
 +(UIColor *)colorWithHexRGB:(NSString *)hex alpha:(CGFloat)alpha {
   UIColor *color = nil;

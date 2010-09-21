@@ -6,12 +6,11 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
 #import <KrayKit/Extension/NSString+Digest.h>
 #import <CommonCrypto/CommonDigest.h>
 
 
-@implementation NSString (Digest)
+@implementation NSString (KrayKitDigestAddition)
 
 -(NSString *)md5Hexdigest {
   const char *src = [self UTF8String];

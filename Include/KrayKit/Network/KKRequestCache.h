@@ -6,9 +6,6 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
-#import <Foundation/Foundation.h>
-
 #ifdef DEBUG
 #  define KK_DEFAULT_CACHE_TTL 300
 #else
@@ -35,5 +32,6 @@
 -(BOOL)isExpired;
 -(BOOL)isCached;
 -(void)storeData:(NSData *)newData expiredAt:(NSDate *)date;
+-(NSString *)cachePath;
 
 @end

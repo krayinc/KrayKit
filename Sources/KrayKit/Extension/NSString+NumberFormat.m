@@ -6,10 +6,10 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
 #import <KrayKit/Extension/NSString+NumberFormat.h>
 
-@implementation NSString (NumberFormat)
+
+@implementation NSString (KrayKitNumberFormatAddition)
 
 +(NSString *)stringWithNumber:(NSNumber *)number currencyCode:(NSString *)currencyCode freeLabel:(NSString *)freeLabel{
   if (freeLabel != nil && ([number unsignedIntegerValue] == 0)) { return freeLabel; }

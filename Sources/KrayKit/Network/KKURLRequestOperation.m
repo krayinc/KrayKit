@@ -6,7 +6,6 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
 #import <KrayKit/Network/KKURLRequestOperation.h>
 
 

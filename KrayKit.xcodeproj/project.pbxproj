@@ -21,11 +21,24 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5A2349B012476B4E007F3302 /* NSDate+Format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2349AF12476B4E007F3302 /* NSDate+Format.h */; };
+		5A2349B212476BAF007F3302 /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2349B112476BAF007F3302 /* NSDate+Format.m */; };
+		5A2349B612476CE8007F3302 /* NSDateFormatter+Format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2349B512476CE8007F3302 /* NSDateFormatter+Format.h */; };
+		5A2349B812476D46007F3302 /* NSDateFormatter+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2349B712476D46007F3302 /* NSDateFormatter+Format.m */; };
+		5A23DE2C121E82C800D41CF3 /* KKAuthAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A23DE2A121E82C800D41CF3 /* KKAuthAlertView.h */; };
+		5A23DE37121E890300D41CF3 /* KKAuthAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A23DE36121E890300D41CF3 /* KKAuthAlertView.m */; };
+		5A4F6938123F6D5A007E702E /* NSArray+Access.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4F6937123F6D5A007E702E /* NSArray+Access.h */; };
+		5A4F693C123F6DBA007E702E /* NSArray+Access.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4F693A123F6DBA007E702E /* NSArray+Access.m */; };
+		5A5EF7DC122D105E005E414C /* UIView+Overlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5EF7DB122D105E005E414C /* UIView+Overlay.h */; };
+		5A5EF7DF122D10EB005E414C /* UIView+Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5EF7DE122D10EB005E414C /* UIView+Overlay.m */; };
+		5A684048124209D100352497 /* UIView+Align.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A684047124209D100352497 /* UIView+Align.h */; };
+		5A68404F12420A5F00352497 /* UIView+Align.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A68404E12420A5F00352497 /* UIView+Align.m */; };
+		5A68413E12421FBD00352497 /* KKProgressIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A68413D12421FBD00352497 /* KKProgressIndicatorView.h */; };
+		5A68414E12421FEA00352497 /* KKProgressIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A68414D12421FEA00352497 /* KKProgressIndicatorView.m */; };
 		5A8165521215328400032A61 /* KKRemoteImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165451215328400032A61 /* KKRemoteImageView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A8165531215328400032A61 /* NSString+Digest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165471215328400032A61 /* NSString+Digest.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A8165541215328400032A61 /* NSString+NumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165481215328400032A61 /* NSString+NumberFormat.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A8165551215328400032A61 /* UIColor+HexRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165491215328400032A61 /* UIColor+HexRGB.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5A8165561215328400032A61 /* UIImageView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A81654A1215328400032A61 /* UIImageView+Effect.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A8165581215328400032A61 /* KKMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A81654D1215328400032A61 /* KKMacro.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A81655A1215328400032A61 /* KKRequestCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165501215328400032A61 /* KKRequestCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5A81655B1215328400032A61 /* KKURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165511215328400032A61 /* KKURLRequestOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -33,21 +46,41 @@
 		5A81656A121532AB00032A61 /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816560121532AB00032A61 /* NSString+Digest.m */; };
 		5A81656B121532AB00032A61 /* NSString+NumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816561121532AB00032A61 /* NSString+NumberFormat.m */; };
 		5A81656C121532AB00032A61 /* UIColor+HexRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816562121532AB00032A61 /* UIColor+HexRGB.m */; };
-		5A81656D121532AB00032A61 /* UIImageView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816563121532AB00032A61 /* UIImageView+Effect.m */; };
 		5A81656F121532AB00032A61 /* KKRequestCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816567121532AB00032A61 /* KKRequestCache.m */; };
 		5A816570121532AB00032A61 /* KKURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816568121532AB00032A61 /* KKURLRequestOperation.m */; };
 		5A81664A12153B1500032A61 /* KrayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165411215324100032A61 /* KrayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE08BBA121943F200C6D492 /* KKFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE08B6812193F8000C6D492 /* KKFile.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5AE08BBB121943F600C6D492 /* KKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE08B6C12193FC300C6D492 /* KKFile.m */; };
+		5AE08D081219628000C6D492 /* NSString+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE08D051219625700C6D492 /* NSString+Base.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5AE08D091219628D00C6D492 /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE08D071219627800C6D492 /* NSString+Base.m */; };
+		5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */; };
+		5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8D980122FAB0E003FA142 /* UIView+Effect.m */; };
+		5AF8DB36122FEF33003FA142 /* KKProgressAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */; };
+		5AF8DB38122FEF66003FA142 /* KKProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */; };
 		AA747D9F0F9514B9006C5449 /* KrayKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* KrayKit_Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2349AF12476B4E007F3302 /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		5A2349B112476BAF007F3302 /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
+		5A2349B512476CE8007F3302 /* NSDateFormatter+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Format.h"; sourceTree = "<group>"; };
+		5A2349B712476D46007F3302 /* NSDateFormatter+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Format.m"; sourceTree = "<group>"; };
+		5A23DE2A121E82C800D41CF3 /* KKAuthAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAuthAlertView.h; sourceTree = "<group>"; };
+		5A23DE36121E890300D41CF3 /* KKAuthAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAuthAlertView.m; sourceTree = "<group>"; };
+		5A4F6937123F6D5A007E702E /* NSArray+Access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Access.h"; sourceTree = "<group>"; };
+		5A4F693A123F6DBA007E702E /* NSArray+Access.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Access.m"; sourceTree = "<group>"; };
+		5A5EF7DB122D105E005E414C /* UIView+Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Overlay.h"; sourceTree = "<group>"; };
+		5A5EF7DE122D10EB005E414C /* UIView+Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Overlay.m"; sourceTree = "<group>"; };
+		5A684047124209D100352497 /* UIView+Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Align.h"; sourceTree = "<group>"; };
+		5A68404E12420A5F00352497 /* UIView+Align.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Align.m"; sourceTree = "<group>"; };
+		5A68413D12421FBD00352497 /* KKProgressIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressIndicatorView.h; sourceTree = "<group>"; };
+		5A68414D12421FEA00352497 /* KKProgressIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressIndicatorView.m; sourceTree = "<group>"; };
 		5A81652D12152CED00032A61 /* Framework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Framework.plist; sourceTree = "<group>"; };
 		5A8165411215324100032A61 /* KrayKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrayKit.h; sourceTree = "<group>"; };
 		5A8165451215328400032A61 /* KKRemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRemoteImageView.h; sourceTree = "<group>"; };
 		5A8165471215328400032A61 /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
 		5A8165481215328400032A61 /* NSString+NumberFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberFormat.h"; sourceTree = "<group>"; };
 		5A8165491215328400032A61 /* UIColor+HexRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRGB.h"; sourceTree = "<group>"; };
-		5A81654A1215328400032A61 /* UIImageView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Effect.h"; sourceTree = "<group>"; };
 		5A81654D1215328400032A61 /* KKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMacro.h; sourceTree = "<group>"; };
 		5A8165501215328400032A61 /* KKRequestCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequestCache.h; sourceTree = "<group>"; };
 		5A8165511215328400032A61 /* KKURLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKURLRequestOperation.h; sourceTree = "<group>"; };
@@ -55,9 +88,16 @@
 		5A816560121532AB00032A61 /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
 		5A816561121532AB00032A61 /* NSString+NumberFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberFormat.m"; sourceTree = "<group>"; };
 		5A816562121532AB00032A61 /* UIColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRGB.m"; sourceTree = "<group>"; };
-		5A816563121532AB00032A61 /* UIImageView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Effect.m"; sourceTree = "<group>"; };
 		5A816567121532AB00032A61 /* KKRequestCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequestCache.m; sourceTree = "<group>"; };
 		5A816568121532AB00032A61 /* KKURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKURLRequestOperation.m; sourceTree = "<group>"; };
+		5AE08B6812193F8000C6D492 /* KKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKFile.h; sourceTree = "<group>"; };
+		5AE08B6C12193FC300C6D492 /* KKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKFile.m; sourceTree = "<group>"; };
+		5AE08D051219625700C6D492 /* NSString+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
+		5AE08D071219627800C6D492 /* NSString+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
+		5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
+		5AF8D980122FAB0E003FA142 /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
+		5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressAlertView.h; sourceTree = "<group>"; };
+		5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressAlertView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* KrayKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KrayKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libKrayKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKrayKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -138,6 +178,7 @@
 			children = (
 				5A8165411215324100032A61 /* KrayKit.h */,
 				5A81654D1215328400032A61 /* KKMacro.h */,
+				5AE08B6612193F6800C6D492 /* File */,
 				5A8165441215328400032A61 /* Control */,
 				5A8165461215328400032A61 /* Extension */,
 				5A81654E1215328400032A61 /* Network */,
@@ -148,7 +189,10 @@
 		5A8165441215328400032A61 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				5A23DE2A121E82C800D41CF3 /* KKAuthAlertView.h */,
 				5A8165451215328400032A61 /* KKRemoteImageView.h */,
+				5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */,
+				5A68413D12421FBD00352497 /* KKProgressIndicatorView.h */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -156,10 +200,16 @@
 		5A8165461215328400032A61 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5A4F6937123F6D5A007E702E /* NSArray+Access.h */,
+				5AE08D051219625700C6D492 /* NSString+Base.h */,
 				5A8165471215328400032A61 /* NSString+Digest.h */,
 				5A8165481215328400032A61 /* NSString+NumberFormat.h */,
 				5A8165491215328400032A61 /* UIColor+HexRGB.h */,
-				5A81654A1215328400032A61 /* UIImageView+Effect.h */,
+				5A684047124209D100352497 /* UIView+Align.h */,
+				5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */,
+				5A5EF7DB122D105E005E414C /* UIView+Overlay.h */,
+				5A2349AF12476B4E007F3302 /* NSDate+Format.h */,
+				5A2349B512476CE8007F3302 /* NSDateFormatter+Format.h */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -177,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				5A81655D121532AB00032A61 /* Control */,
+				5AE08B6A12193F9A00C6D492 /* File */,
 				5A81655F121532AB00032A61 /* Extension */,
 				5A816566121532AB00032A61 /* Network */,
 			);
@@ -186,7 +237,10 @@
 		5A81655D121532AB00032A61 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				5A23DE36121E890300D41CF3 /* KKAuthAlertView.m */,
+				5AF8DB37122FEF66003FA142 /* KKProgressAlertView.m */,
 				5A81655E121532AB00032A61 /* KKRemoteImageView.m */,
+				5A68414D12421FEA00352497 /* KKProgressIndicatorView.m */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -194,10 +248,16 @@
 		5A81655F121532AB00032A61 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5A4F693A123F6DBA007E702E /* NSArray+Access.m */,
+				5AE08D071219627800C6D492 /* NSString+Base.m */,
 				5A816560121532AB00032A61 /* NSString+Digest.m */,
 				5A816561121532AB00032A61 /* NSString+NumberFormat.m */,
 				5A816562121532AB00032A61 /* UIColor+HexRGB.m */,
-				5A816563121532AB00032A61 /* UIImageView+Effect.m */,
+				5A68404E12420A5F00352497 /* UIView+Align.m */,
+				5AF8D980122FAB0E003FA142 /* UIView+Effect.m */,
+				5A5EF7DE122D10EB005E414C /* UIView+Overlay.m */,
+				5A2349B112476BAF007F3302 /* NSDate+Format.m */,
+				5A2349B712476D46007F3302 /* NSDateFormatter+Format.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -211,6 +271,22 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		5AE08B6612193F6800C6D492 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5AE08B6812193F8000C6D492 /* KKFile.h */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		5AE08B6A12193F9A00C6D492 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5AE08B6C12193FC300C6D492 /* KKFile.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -221,13 +297,23 @@
 				5A81664A12153B1500032A61 /* KrayKit.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* KrayKit_Prefix.pch in Headers */,
 				5A8165521215328400032A61 /* KKRemoteImageView.h in Headers */,
+				5AE08D081219628000C6D492 /* NSString+Base.h in Headers */,
 				5A8165531215328400032A61 /* NSString+Digest.h in Headers */,
 				5A8165541215328400032A61 /* NSString+NumberFormat.h in Headers */,
 				5A8165551215328400032A61 /* UIColor+HexRGB.h in Headers */,
-				5A8165561215328400032A61 /* UIImageView+Effect.h in Headers */,
 				5A8165581215328400032A61 /* KKMacro.h in Headers */,
 				5A81655A1215328400032A61 /* KKRequestCache.h in Headers */,
 				5A81655B1215328400032A61 /* KKURLRequestOperation.h in Headers */,
+				5AE08BBA121943F200C6D492 /* KKFile.h in Headers */,
+				5A23DE2C121E82C800D41CF3 /* KKAuthAlertView.h in Headers */,
+				5A5EF7DC122D105E005E414C /* UIView+Overlay.h in Headers */,
+				5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */,
+				5AF8DB36122FEF33003FA142 /* KKProgressAlertView.h in Headers */,
+				5A4F6938123F6D5A007E702E /* NSArray+Access.h in Headers */,
+				5A684048124209D100352497 /* UIView+Align.h in Headers */,
+				5A68413E12421FBD00352497 /* KKProgressIndicatorView.h in Headers */,
+				5A2349B012476B4E007F3302 /* NSDate+Format.h in Headers */,
+				5A2349B612476CE8007F3302 /* NSDateFormatter+Format.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +344,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "KrayKit" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* KrayKit */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -282,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export PATH=/Developer/usr/bin:\"$PATH\"\n\n# Define these to suit your nefarious purposes\nFRAMEWORK_NAME=KrayKit\nFRAMEWORK_VERSION=A\nFRAMEWORK_CURRENT_VERSION=1\nFRAMEWORK_COMPATIBILITY_VERSION=1\n\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} clean\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphonesimulator4.0\n[ $? != 0 ] && exit 1\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphoneos4.0\n\n# Where we'll put the build framework.\n# The script presumes we're in the project root\n# directory. Xcode builds in \"build\" by default\nFRAMEWORK_BUILD_PATH=\"build/Framework\"\n\n# Clean any existing framework that might be there\n# already\necho \"Framework: Cleaning framework...\"\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && \\\n  rm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\n# This is the full name of the framework we'll\n# build\nFRAMEWORK_DIR=${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\n\n# Build the canonical Framework bundle directory\n# structure\necho \"Framework: Setting up directories...\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\n\necho \"Framework: Creating symlinks...\"\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# Check that this is what your static libraries\n# are called\nFRAMEWORK_INPUT_ARM_FILES=\"build/${BUILD_STYLE}-iphoneos/lib${FRAMEWORK_NAME}.a\"\nFRAMEWORK_INPUT_I386_FILES=\"build/${BUILD_STYLE}-iphonesimulator/lib${FRAMEWORK_NAME}.a\"\n\n# The trick for creating a fully usable library is\n# to use lipo to glue the different library\n# versions together into one file. When an\n# application is linked to this library, the\n# linker will extract the appropriate platform\n# version and use that.\n# The library file is given the same name as the\n# framework with no .a extension.\necho \"Framework: Creating library...\"\nlipo \\\n  -create \\\n  \"${FRAMEWORK_INPUT_ARM_FILES}\" \\\n  -arch i386 \"${FRAMEWORK_INPUT_I386_FILES}\" \\\n  -o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n# Now copy the final assets over: your library\n# header files and the plist file\necho \"Framework: Copying assets into current version...\"\ncp -r Include/${FRAMEWORK_NAME}/* ${FRAMEWORK_DIR}/Headers/\ncp Resources/Framework.plist ${FRAMEWORK_DIR}/Resources/Info.plist\n";
+			shellScript = "export PATH=/Developer/usr/bin:\"$PATH\"\n\n# Define these to suit your nefarious purposes\nFRAMEWORK_NAME=KrayKit\nFRAMEWORK_VERSION=A\nFRAMEWORK_CURRENT_VERSION=1\nFRAMEWORK_COMPATIBILITY_VERSION=1\n\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} clean\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphonesimulator${IPHONEOS_DEPLOYMENT_TARGET}\n[ $? != 0 ] && exit 1\nxcodebuild -configuration ${BUILD_STYLE} -target ${FRAMEWORK_NAME} -sdk iphoneos${IPHONEOS_DEPLOYMENT_TARGET}\n\n# Where we'll put the build framework.\n# The script presumes we're in the project root\n# directory. Xcode builds in \"build\" by default\nFRAMEWORK_BUILD_PATH=\"build/Framework\"\n\n# Clean any existing framework that might be there\n# already\necho \"Framework: Cleaning framework...\"\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && \\\n  rm -rf \"${FRAMEWORK_BUILD_PATH}\"\n\n# This is the full name of the framework we'll\n# build\nFRAMEWORK_DIR=${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\n\n# Build the canonical Framework bundle directory\n# structure\necho \"Framework: Setting up directories...\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\n\necho \"Framework: Creating symlinks...\"\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# Check that this is what your static libraries\n# are called\nFRAMEWORK_INPUT_ARM_FILES=\"build/${BUILD_STYLE}-iphoneos/lib${FRAMEWORK_NAME}.a\"\nFRAMEWORK_INPUT_I386_FILES=\"build/${BUILD_STYLE}-iphonesimulator/lib${FRAMEWORK_NAME}.a\"\n\n# The trick for creating a fully usable library is\n# to use lipo to glue the different library\n# versions together into one file. When an\n# application is linked to this library, the\n# linker will extract the appropriate platform\n# version and use that.\n# The library file is given the same name as the\n# framework with no .a extension.\necho \"Framework: Creating library...\"\nlipo \\\n  -create \\\n  \"${FRAMEWORK_INPUT_ARM_FILES}\" \\\n  -arch i386 \"${FRAMEWORK_INPUT_I386_FILES}\" \\\n  -o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n# Now copy the final assets over: your library\n# header files and the plist file\necho \"Framework: Copying assets into current version...\"\ncp -r Include/${FRAMEWORK_NAME}/* ${FRAMEWORK_DIR}/Headers/\ncp Resources/Framework.plist ${FRAMEWORK_DIR}/Resources/Info.plist\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -292,12 +385,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A816569121532AB00032A61 /* KKRemoteImageView.m in Sources */,
+				5AE08D091219628D00C6D492 /* NSString+Base.m in Sources */,
 				5A81656A121532AB00032A61 /* NSString+Digest.m in Sources */,
 				5A81656B121532AB00032A61 /* NSString+NumberFormat.m in Sources */,
 				5A81656C121532AB00032A61 /* UIColor+HexRGB.m in Sources */,
-				5A81656D121532AB00032A61 /* UIImageView+Effect.m in Sources */,
 				5A81656F121532AB00032A61 /* KKRequestCache.m in Sources */,
 				5A816570121532AB00032A61 /* KKURLRequestOperation.m in Sources */,
+				5AE08BBB121943F600C6D492 /* KKFile.m in Sources */,
+				5A23DE37121E890300D41CF3 /* KKAuthAlertView.m in Sources */,
+				5A5EF7DF122D10EB005E414C /* UIView+Overlay.m in Sources */,
+				5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */,
+				5AF8DB38122FEF66003FA142 /* KKProgressAlertView.m in Sources */,
+				5A4F693C123F6DBA007E702E /* NSArray+Access.m in Sources */,
+				5A68404F12420A5F00352497 /* UIView+Align.m in Sources */,
+				5A68414E12421FEA00352497 /* KKProgressIndicatorView.m in Sources */,
+				5A2349B212476BAF007F3302 /* NSDate+Format.m in Sources */,
+				5A2349B812476D46007F3302 /* NSDateFormatter+Format.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +452,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

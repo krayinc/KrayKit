@@ -12,15 +12,22 @@
 #ifdef DEBUG
 #  define LOG(...) NSLog(__VA_ARGS__)
 #  define OBJDUMP(...) NSLog(@"%@", __VA_ARGS__)
+#  define RECTDUMP(rect) NSLog(@"x = %f, y = %f, width = %f, height = %f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height)
 #  define LOG_METHOD NSLog(@"%s", __func__)
 #else
 #  define LOG(...) ;
 #  define OBJDUMP(...) ;
+#  define RECTDUMP(...) ;
 #  define LOG_METHOD ;
 #endif
 
+#define CURRENT_POS [NSString stringWithFormat:@"%s:%d",__func__, __LINE__]
+
 //
-#define SINGLETON \
+#define SINGLETON_INTERFACE +(id)instance;
+
+//
+#define SINGLETON_IMPLEMENTATION \
 \
 static id _instance = nil;\
 \
@@ -69,3 +76,21 @@ static id _instance = nil;\
                                         otherButtonTitles:@"OK",nil];\
   [alert show];\
   [alert release];
+
+//
+#define VARIADIC_TO_ARRAY(firstObject, resultArray)\
+  id object;\
+  va_list argumentList;\
+  if (firstObject) {\
+    [resultArray addObject:firstObject];\
+    va_start(argumentList, firstObject);\
+    while (object = va_arg(argumentList, id)) { [resultArray addObject:object]; }\
+    va_end(argumentList);\
+  }
+
+//
+#define RELEASE_IF_EXIST(obj)\
+  if (obj) {\
+    [obj release];\
+    obj = nil;\
+  }

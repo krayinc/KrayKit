@@ -6,11 +6,8 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
-#import <Foundation/Foundation.h>
 
-
-@interface NSString (NumberFormat)
+@interface NSString (KrayKitNumberFormatAddition)
 
 +(NSString *)stringWithNumber:(NSNumber *)number currencyCode:(NSString *)currencyCode freeLabel:(NSString *)freeLabel;
 

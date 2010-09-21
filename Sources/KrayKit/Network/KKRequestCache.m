@@ -6,7 +6,6 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
 #import <KrayKit/Extension/NSString+Digest.h>
 #import <KrayKit/Network/KKRequestCache.h>
 
@@ -62,11 +61,14 @@
   return expiredAt != nil;
 }
 
+-(NSString *)cachePath {
+  return [NSString stringWithFormat:@"%@/%@", [KKRequestCache createCacheDirectory], [KKRequestCache keyFromURL:url params:params]];
+}
+
 -(void)storeData:(NSData *)newData expiredAt:(NSDate *)date {
   data      = [newData retain];
   expiredAt = [date retain];
-  NSString *path = [NSString stringWithFormat:@"%@/%@", [KKRequestCache createCacheDirectory], [KKRequestCache keyFromURL:url params:params]];
-  [NSKeyedArchiver archiveRootObject:self toFile:path];
+  [NSKeyedArchiver archiveRootObject:self toFile:[self cachePath]];
 }
 
 -(void)dealloc {

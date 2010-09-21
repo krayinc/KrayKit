@@ -6,9 +6,6 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
-#import <Foundation/Foundation.h>
-
 #pragma mark Protocol
 
 @protocol KKURLRequestOperationDelegate

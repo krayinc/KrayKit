@@ -6,11 +6,8 @@
 //  Copyright 2010 KRAY Inc. All rights reserved.
 //
 
-#import <KrayKit/KKMacro.h>
-#import <Foundation/Foundation.h>
 
-
-@interface NSString (Digest)
+@interface NSString (KrayKitDigestAddition)
 
 -(NSString *)md5Hexdigest;
 -(NSString *)sha1Hexdigest;
