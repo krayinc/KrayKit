@@ -10,7 +10,10 @@
 
 @interface KKAuthAlertView : UIAlertView {
   UITextField *passwordField;
+  NSInteger buttonIndexForEnterKey;
 }
+
+@property (nonatomic,assign) NSInteger buttonIndexForEnterKey;
 
 -(NSString *)password;
 
