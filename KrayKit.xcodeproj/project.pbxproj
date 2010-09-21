@@ -49,10 +49,6 @@
 		5A81656F121532AB00032A61 /* KKRequestCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816567121532AB00032A61 /* KKRequestCache.m */; };
 		5A816570121532AB00032A61 /* KKURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A816568121532AB00032A61 /* KKURLRequestOperation.m */; };
 		5A81664A12153B1500032A61 /* KrayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8165411215324100032A61 /* KrayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AE08BBA121943F200C6D492 /* KKFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE08B6812193F8000C6D492 /* KKFile.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5AE08BBB121943F600C6D492 /* KKFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE08B6C12193FC300C6D492 /* KKFile.m */; };
-		5AE08D081219628000C6D492 /* NSString+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE08D051219625700C6D492 /* NSString+Base.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5AE08D091219628D00C6D492 /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE08D071219627800C6D492 /* NSString+Base.m */; };
 		5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */; };
 		5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8D980122FAB0E003FA142 /* UIView+Effect.m */; };
 		5AF8DB36122FEF33003FA142 /* KKProgressAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */; };
@@ -90,10 +86,6 @@
 		5A816562121532AB00032A61 /* UIColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRGB.m"; sourceTree = "<group>"; };
 		5A816567121532AB00032A61 /* KKRequestCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequestCache.m; sourceTree = "<group>"; };
 		5A816568121532AB00032A61 /* KKURLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKURLRequestOperation.m; sourceTree = "<group>"; };
-		5AE08B6812193F8000C6D492 /* KKFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKFile.h; sourceTree = "<group>"; };
-		5AE08B6C12193FC300C6D492 /* KKFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKFile.m; sourceTree = "<group>"; };
-		5AE08D051219625700C6D492 /* NSString+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
-		5AE08D071219627800C6D492 /* NSString+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
 		5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Effect.h"; sourceTree = "<group>"; };
 		5AF8D980122FAB0E003FA142 /* UIView+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Effect.m"; sourceTree = "<group>"; };
 		5AF8DB35122FEF33003FA142 /* KKProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressAlertView.h; sourceTree = "<group>"; };
@@ -178,7 +170,6 @@
 			children = (
 				5A8165411215324100032A61 /* KrayKit.h */,
 				5A81654D1215328400032A61 /* KKMacro.h */,
-				5AE08B6612193F6800C6D492 /* File */,
 				5A8165441215328400032A61 /* Control */,
 				5A8165461215328400032A61 /* Extension */,
 				5A81654E1215328400032A61 /* Network */,
@@ -201,15 +192,14 @@
 			isa = PBXGroup;
 			children = (
 				5A4F6937123F6D5A007E702E /* NSArray+Access.h */,
-				5AE08D051219625700C6D492 /* NSString+Base.h */,
+				5A2349AF12476B4E007F3302 /* NSDate+Format.h */,
+				5A2349B512476CE8007F3302 /* NSDateFormatter+Format.h */,
 				5A8165471215328400032A61 /* NSString+Digest.h */,
 				5A8165481215328400032A61 /* NSString+NumberFormat.h */,
 				5A8165491215328400032A61 /* UIColor+HexRGB.h */,
 				5A684047124209D100352497 /* UIView+Align.h */,
 				5AF8D97C122FAAE9003FA142 /* UIView+Effect.h */,
 				5A5EF7DB122D105E005E414C /* UIView+Overlay.h */,
-				5A2349AF12476B4E007F3302 /* NSDate+Format.h */,
-				5A2349B512476CE8007F3302 /* NSDateFormatter+Format.h */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -227,7 +217,6 @@
 			isa = PBXGroup;
 			children = (
 				5A81655D121532AB00032A61 /* Control */,
-				5AE08B6A12193F9A00C6D492 /* File */,
 				5A81655F121532AB00032A61 /* Extension */,
 				5A816566121532AB00032A61 /* Network */,
 			);
@@ -249,15 +238,14 @@
 			isa = PBXGroup;
 			children = (
 				5A4F693A123F6DBA007E702E /* NSArray+Access.m */,
-				5AE08D071219627800C6D492 /* NSString+Base.m */,
+				5A2349B112476BAF007F3302 /* NSDate+Format.m */,
+				5A2349B712476D46007F3302 /* NSDateFormatter+Format.m */,
 				5A816560121532AB00032A61 /* NSString+Digest.m */,
 				5A816561121532AB00032A61 /* NSString+NumberFormat.m */,
 				5A816562121532AB00032A61 /* UIColor+HexRGB.m */,
 				5A68404E12420A5F00352497 /* UIView+Align.m */,
 				5AF8D980122FAB0E003FA142 /* UIView+Effect.m */,
 				5A5EF7DE122D10EB005E414C /* UIView+Overlay.m */,
-				5A2349B112476BAF007F3302 /* NSDate+Format.m */,
-				5A2349B712476D46007F3302 /* NSDateFormatter+Format.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -271,22 +259,6 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		5AE08B6612193F6800C6D492 /* File */ = {
-			isa = PBXGroup;
-			children = (
-				5AE08B6812193F8000C6D492 /* KKFile.h */,
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
-		5AE08B6A12193F9A00C6D492 /* File */ = {
-			isa = PBXGroup;
-			children = (
-				5AE08B6C12193FC300C6D492 /* KKFile.m */,
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -297,14 +269,12 @@
 				5A81664A12153B1500032A61 /* KrayKit.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* KrayKit_Prefix.pch in Headers */,
 				5A8165521215328400032A61 /* KKRemoteImageView.h in Headers */,
-				5AE08D081219628000C6D492 /* NSString+Base.h in Headers */,
 				5A8165531215328400032A61 /* NSString+Digest.h in Headers */,
 				5A8165541215328400032A61 /* NSString+NumberFormat.h in Headers */,
 				5A8165551215328400032A61 /* UIColor+HexRGB.h in Headers */,
 				5A8165581215328400032A61 /* KKMacro.h in Headers */,
 				5A81655A1215328400032A61 /* KKRequestCache.h in Headers */,
 				5A81655B1215328400032A61 /* KKURLRequestOperation.h in Headers */,
-				5AE08BBA121943F200C6D492 /* KKFile.h in Headers */,
 				5A23DE2C121E82C800D41CF3 /* KKAuthAlertView.h in Headers */,
 				5A5EF7DC122D105E005E414C /* UIView+Overlay.h in Headers */,
 				5AF8D97D122FAAE9003FA142 /* UIView+Effect.h in Headers */,
@@ -385,13 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A816569121532AB00032A61 /* KKRemoteImageView.m in Sources */,
-				5AE08D091219628D00C6D492 /* NSString+Base.m in Sources */,
 				5A81656A121532AB00032A61 /* NSString+Digest.m in Sources */,
 				5A81656B121532AB00032A61 /* NSString+NumberFormat.m in Sources */,
 				5A81656C121532AB00032A61 /* UIColor+HexRGB.m in Sources */,
 				5A81656F121532AB00032A61 /* KKRequestCache.m in Sources */,
 				5A816570121532AB00032A61 /* KKURLRequestOperation.m in Sources */,
-				5AE08BBB121943F600C6D492 /* KKFile.m in Sources */,
 				5A23DE37121E890300D41CF3 /* KKAuthAlertView.m in Sources */,
 				5A5EF7DF122D10EB005E414C /* UIView+Overlay.m in Sources */,
 				5AF8D981122FAB0E003FA142 /* UIView+Effect.m in Sources */,

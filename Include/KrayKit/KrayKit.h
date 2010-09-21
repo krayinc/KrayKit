@@ -11,7 +11,6 @@
 #import <KrayKit/Extension/NSArray+Access.h>
 #import <KrayKit/Extension/NSDate+Format.h>
 #import <KrayKit/Extension/NSDateFormatter+Format.h>
-#import <KrayKit/Extension/NSString+Base.h>
 #import <KrayKit/Extension/NSString+Digest.h>
 #import <KrayKit/Extension/NSString+NumberFormat.h>
 #import <KrayKit/Extension/UIColor+HexRGB.h>
